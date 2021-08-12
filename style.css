@@ -166,7 +166,7 @@ footer {
 }
 
 .footerInfo li {
-  width: 150px;
+  width: 200px;
 }
 
 .footerInfo a {
@@ -182,7 +182,6 @@ footer {
 }
 
 .footerInfo p {
-  text-align: justify;
-  margin-left: 40px;
+  margin-left: 50px;
   color: white;
 }
