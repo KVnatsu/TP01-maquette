@@ -1,6 +1,7 @@
 body {
   display: flex;
   justify-content: center;
+  font-family: "Roboto", sans-serif;
 }
 
 #container {
@@ -43,7 +44,7 @@ nav a {
 
 #background img {
   position: absolute;
-  width: 15%;
+  width: 17%;
   top: 42.5%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -55,36 +56,38 @@ nav a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-style: normal;
 }
 
 /* Main en haut */
 
-#mPhrase {
+main {
+  padding-bottom: 10px;
+}
+
+#mainTitle {
   width: 750px;
   font-size: 1.5em;
   margin-left: 200px;
   padding-top: 5px;
+  color: grey;
 }
 
-#mPhrase p {
+#mainTitle p {
   text-align: center;
 }
 
 /* Main au milieux */
 
 .block {
-  width: 250px;
+  width: 300px;
   text-align: center;
   margin-right: 30px;
 }
 
 #illustrations p {
   width: 150px;
-  margin-left: 50px;
-}
-
-#strategie p {
-  width: 250px;
+  margin-left: 75px;
 }
 
 #mainBlock {
@@ -104,22 +107,23 @@ nav a {
 }
 
 #testimony p {
-  text-align: center;
-  width: 600px;
+  width: 700px;
   font-size: 1.5em;
+  color: grey;
 }
 
 #testimony blockquote {
   position: absolute;
-  top: 70%;
+  top: 75%;
   right: 55%;
+  color: grey;
 }
 
 /* Footer */
 
 footer {
   position: relative;
-  background-color: purple;
+  background-color: #5b359d;
 }
 
 #footerTitle p {
@@ -133,6 +137,7 @@ footer {
 #social {
   display: flex;
   justify-content: center;
+  padding-bottom: 20px;
 }
 
 #social i {
@@ -141,4 +146,41 @@ footer {
   font-size: 2.5em;
   width: 10%;
   margin-top: 7%;
+}
+
+#footerDown {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footerInfo {
+  position: relative;
+  text-align: justify;
+}
+
+.footerInfo h1 {
+  font-size: 1.2em;
+  color: gray;
+}
+
+.footerInfo li {
+  width: 150px;
+}
+
+.footerInfo a {
+  text-decoration: none;
+  color: white;
+}
+
+.footerInfo ul {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  color: white;
+}
+
+.footerInfo p {
+  text-align: justify;
+  margin-left: 40px;
+  color: white;
 }
