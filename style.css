@@ -96,21 +96,49 @@ nav a {
 
 /* Main en bas */
 
-#citation {
+#testimony {
   position: relative;
   display: flex;
   flex-direction: column;
   margin-left: 280px;
 }
 
-#citation p {
+#testimony p {
   text-align: center;
   width: 600px;
   font-size: 1.5em;
 }
 
-#citation blockquote {
+#testimony blockquote {
   position: absolute;
   top: 70%;
   right: 55%;
+}
+
+/* Footer */
+
+footer {
+  position: relative;
+  background-color: purple;
+}
+
+#footerTitle p {
+  position: absolute;
+  right: 35%;
+  padding-top: 20px;
+  color: white;
+  font-size: 1em;
+}
+
+#social {
+  display: flex;
+  justify-content: center;
+}
+
+#social i {
+  text-align: center;
+  bottom: 5%;
+  font-size: 2.5em;
+  width: 10%;
+  margin-top: 7%;
 }
