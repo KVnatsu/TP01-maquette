@@ -8,6 +8,8 @@ body {
   max-width: 1200px;
 }
 
+/* En tête (header) */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -55,7 +57,60 @@ nav a {
   transform: translate(-50%, -50%);
 }
 
-/* section */
+/* Main en haut */
 
-section {
+#mPhrase {
+  width: 750px;
+  font-size: 1.5em;
+  margin-left: 200px;
+  padding-top: 5px;
+}
+
+#mPhrase p {
+  text-align: center;
+}
+
+/* Main au milieux */
+
+.block {
+  width: 250px;
+  text-align: center;
+  margin-right: 30px;
+}
+
+#illustrations p {
+  width: 150px;
+  margin-left: 50px;
+}
+
+#strategie p {
+  width: 250px;
+}
+
+#mainBlock {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+/* Main en bas */
+
+#citation {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-left: 280px;
+}
+
+#citation p {
+  text-align: center;
+  width: 600px;
+  font-size: 1.5em;
+}
+
+#citation blockquote {
+  position: absolute;
+  top: 70%;
+  right: 55%;
 }
