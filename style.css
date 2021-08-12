@@ -103,10 +103,11 @@ main {
   position: relative;
   display: flex;
   flex-direction: column;
-  margin-left: 280px;
+  margin-left: 230px;
 }
 
 #testimony p {
+  text-align: center;
   width: 700px;
   font-size: 1.5em;
   color: grey;
@@ -115,7 +116,7 @@ main {
 #testimony blockquote {
   position: absolute;
   top: 75%;
-  right: 55%;
+  right: 52%;
   color: grey;
 }
 
